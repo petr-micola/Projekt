@@ -35,7 +35,7 @@ a:hover {
 .card {
     background-color: #343a40 !important;
     border: 3px solid #202327 !important;
-    border-radius: 0 !important;
+    border-radius: 15px!important;
 }
 
 .bg-dark {
