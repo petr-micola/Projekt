@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 body {
     padding-top: 70px;
@@ -10,14 +11,26 @@ div div div img {
 }
 
 .bg-green {
-    background-color: #012C2C;
+    background-color: #091F22;
 }
 
-h1,
+.bg-black {
+    background-color: #000000;
+}
+
 .text-gold {
     color: goldenrod !important;
     font-family: 'Jim Nightshade', cursive;
     text-shadow: 2px 2px 4px #000000;
+}
+
+.text-white {
+    color: #E6D4B1 !important;
+}
+
+h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: #D68C52;
 }
 
 a {
@@ -33,11 +46,7 @@ a:hover {
 }
 
 .card {
-    background-color: #343a40 !important;
-    border: 3px solid #202327 !important;
+    background: linear-gradient(to left, rgba(255,0,0,0), rgba(63, 10, 11,0.4));
+    border: 1px solid #27241F !important;
     border-radius: 15px!important;
-}
-
-.bg-dark {
-    background-color: #202327!important;
 }
