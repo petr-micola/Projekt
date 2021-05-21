@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader&display=swap');
 
 body {
     padding-top: 70px;
@@ -30,7 +30,7 @@ div div div img {
 
 h2,
 h3 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Newsreader', serif;
     color: #D68C52;
 }
 
