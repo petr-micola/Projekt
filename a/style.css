@@ -34,12 +34,12 @@ h1 {
 }
 
 a {
-    color: white!important;
+    color: white !important;
     transition: color 0.5s;
 }
 
 a:hover {
-    color: #E6D4B1!important;
+    color: #E6D4B1 !important;
 }
 
 .navbar-brand {

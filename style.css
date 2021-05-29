@@ -25,11 +25,11 @@ div div div img {
 }
 
 .text-main {
-    color: #E6D4B1!important;
+    color: #E6D4B1 !important;
 }
 
 a {
-    color: white!important;
+    color: white !important;
     transition: color 0.5s;
 }
 
@@ -40,7 +40,7 @@ h3 {
 }
 
 a:hover {
-    color: #E6D4B1!important;
+    color: #E6D4B1 !important;
 }
 
 .navbar-brand {
