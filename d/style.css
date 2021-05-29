@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader&display=swap');
+
+body {
+    padding-top: 70px;
+}
+
+div div div img {
+    width: 100%;
+    height: auto;
+}
+
+iframe {
+    width: 50%;
+    height: 745px;
+    display: block;
+    margin: 0 auto;
+}
+
+.bg-green {
+    background-color: #091F22;
+}
+
+.bg-black {
+    background-color: #000000;
+}
+
+.text-gold {
+    color: goldenrod !important;
+    font-family: 'Jim Nightshade', cursive;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.text-main {
+    color: #E6D4B1 !important;
+}
+
+h1 {
+    font-family: 'Newsreader', serif;
+    color: #D68C52;
+}
+
+a {
+    color: white!important;
+    transition: color 0.5s;
+}
+
+a:hover {
+    color: #E6D4B1!important;
+}
+
+.navbar-brand {
+    font-size: 1.5rem !important;
+}
+
+.card {
+    background: linear-gradient(to left, rgba(255, 0, 0, 0), rgba(63, 10, 11, 0.4));
+    border: 1px solid #27241F !important;
+    border-radius: 15px !important;
+}
+
+h1 {
+    border-top: 2px solid #d68b52af;
+    border-bottom: 2px solid #d68b52af;
+}
+
+footer {
+    border-top: 2px solid #d68b52af;
+}

@@ -24,8 +24,13 @@ div div div img {
     text-shadow: 2px 2px 4px #000000;
 }
 
-.text-white {
-    color: #E6D4B1 !important;
+.text-main {
+    color: #E6D4B1!important;
+}
+
+a {
+    color: white!important;
+    transition: color 0.5s;
 }
 
 h2,
@@ -34,12 +39,8 @@ h3 {
     color: #D68C52;
 }
 
-a {
-    color: white;
-}
-
 a:hover {
-    color: #BED3DA;
+    color: #E6D4B1!important;
 }
 
 .navbar-brand {
