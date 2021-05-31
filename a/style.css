@@ -9,7 +9,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
 .bg-green {
     background-color: #091F22;
@@ -29,7 +29,8 @@ img {
     color: #E6D4B1 !important;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Newsreader', serif;
     color: #D68C52;
 }
@@ -45,6 +46,15 @@ a:hover {
 
 .navbar-brand {
     font-size: 1.5rem !important;
+}
+
+.navbar-toggler {
+    border: 0 !important;
+    border-radius: 0 !important;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(218, 165, 32, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 .card {
