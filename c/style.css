@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader&display=swap');
+
+body {
+    padding-top: 70px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-green {
+    background-color: #091F22;
+}
+
+.bg-black {
+    background-color: #000000;
+}
+
+.text-gold {
+    color: goldenrod !important;
+    font-family: 'Jim Nightshade', cursive;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.text-main {
+    color: #E6D4B1 !important;
+}
+
+h1,
+h2 {
+    font-family: 'Newsreader', serif;
+    color: #D68C52;
+}
+
+a {
+    color: white !important;
+    transition: color 0.5s;
+}
+
+a:hover {
+    color: #E6D4B1 !important;
+}
+
+.navbar-brand {
+    font-size: 1.5rem !important;
+}
+
+.navbar-toggler {
+    border: 0 !important;
+    border-radius: 0 !important;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(218, 165, 32, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+button:focus {
+    outline: 0!important;
+}
+
+.card {
+    background: linear-gradient(to left, rgba(255, 0, 0, 0), rgba(63, 10, 11, 0.4));
+    border: 1px solid #27241F !important;
+    border-radius: 15px !important;
+}
+
+h1 {
+    border-top: 2px solid #d68b52af;
+    border-bottom: 2px solid #d68b52af;
+}
+
+footer {
+    border-top: 2px solid #d68b52af;
+}
