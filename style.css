@@ -49,6 +49,10 @@ a {
     transition: color 0.5s;
 }
 
+.prehled-link {
+    text-decoration: underline;
+}
+
 h2,
 h3 {
     font-family: 'Newsreader', serif;
@@ -57,6 +61,15 @@ h3 {
 
 a:hover {
     color: #E6D4B1 !important;
+}
+
+.dropdown-item:hover {
+    color: #000000 !important;
+}
+
+.dropdown-item {
+    color: rgb(255, 255, 255) !important;
+    transition: none;
 }
 
 .navbar-brand {

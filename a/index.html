@@ -28,11 +28,16 @@
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Přehled</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Přehled</a>
+                        <div class="dropdown-menu bg-black" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="../a/index.html">O hře</a>
+                            <a class="dropdown-item" href="../a/index.html#galerie">Galerie</a>
+                        </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Vznik</a>
+                        <a class="nav-link" href="../b/index.html">Vznik</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../c/index.html">Příběh</a>
@@ -42,6 +47,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../e/index.html">Recenze</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../f/index.html">Kvíz</a>
                     </li>
                 </ul>
             </div>
@@ -68,7 +76,7 @@
                 předměty. V pátém dějství se hráči snaží prolomit hradby Sancta a nakonec porazit samotného pána démonů.
                 Ten, komu se to podaří, vyhrává hru.</p>
         </div>
-        <div>
+        <div id="galerie">
             <h2 class="text-uppercase text-center pt-2">Fotogalerie</h2>
             <div id="carouselId" class="carousel slide carousel-fade pb-3" data-ride="carousel" data-interval="false">
                 <ol class="carousel-indicators">

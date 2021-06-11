@@ -44,6 +44,15 @@ a:hover {
     color: #E6D4B1 !important;
 }
 
+.dropdown-item:hover {
+    color: #000000 !important;
+}
+
+.dropdown-item {
+    color: rgb(255, 255, 255) !important;
+    transition: none;
+}
+
 .navbar-brand {
     font-size: 1.5rem !important;
 }
