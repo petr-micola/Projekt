@@ -5,10 +5,18 @@ body {
     padding-top: 70px;
 }
 
-img {
+main img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+footer img {
+    filter: grayscale(100%);
+}
+
+footer img:hover {
+    filter: none;
 }
 
 .bg-green {

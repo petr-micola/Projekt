@@ -13,11 +13,19 @@ iframe {
     margin: 0 auto;
 }
 
+footer img {
+    filter: grayscale(100%);
+}
+
+footer img:hover {
+    filter: none;
+}
+
 .btn {
     border-radius: 0;
 }
 
-img {
+.carousel img {
     width: 100%;
     height: auto;
 }

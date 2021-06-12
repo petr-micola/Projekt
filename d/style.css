@@ -10,6 +10,14 @@ div div div img {
     height: auto;
 }
 
+footer img {
+    filter: grayscale(100%);
+}
+
+footer img:hover {
+    filter: none;
+}
+
 object {
     width: 80%;
 }

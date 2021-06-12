@@ -11,6 +11,14 @@ img {
     margin-right: auto;
 }
 
+footer img {
+    filter: grayscale(100%);
+}
+
+footer img:hover {
+    filter: none;
+}
+
 .bg-green {
     background-color: #091F22;
 }
