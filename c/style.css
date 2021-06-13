@@ -10,6 +10,10 @@ div div div img {
     height: auto;
 }
 
+.jazykLogo img {
+    width: 35px;
+}
+
 footer img {
     filter: grayscale(100%);
 }
@@ -86,7 +90,7 @@ a:hover {
 }
 
 button:focus {
-    outline: 0!important;
+    outline: 0 !important;
 }
 
 .card {
