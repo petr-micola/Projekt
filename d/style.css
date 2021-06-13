@@ -5,9 +5,17 @@ body {
     padding-top: 70px;
 }
 
-div div div img {
-    width: 100%;
-    height: auto;
+main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+}
+
+@media (min-width: 576px) {
+    main img {
+        max-width: auto;
+    }
 }
 
 footer img {
@@ -18,16 +26,8 @@ footer img:hover {
     filter: none;
 }
 
-object {
-    width: 80%;
-}
-
-iframe {
-    border: none;
-    width: 80%;
-    height: 315px;
-    display: block;
-    margin: 0 auto;
+.btn {
+    border-radius: 0;
 }
 
 .bg-green {
@@ -63,6 +63,10 @@ a:hover {
     color: #E6D4B1 !important;
 }
 
+.underlined-link {
+    text-decoration: underline;
+}
+
 .dropdown-item:hover {
     color: #000000 !important;
 }
@@ -92,7 +96,7 @@ button:focus {
 .card {
     background: linear-gradient(to left, rgba(255, 0, 0, 0), rgba(63, 10, 11, 0.4));
     border: 1px solid #27241F !important;
-    border-radius: 15px !important;
+    border-radius: 0 !important;
 }
 
 h1 {

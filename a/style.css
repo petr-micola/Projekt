@@ -9,6 +9,13 @@ main img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 90%;
+}
+
+@media (min-width: 576px) {
+    main img {
+        max-width: auto;
+    }
 }
 
 footer img {

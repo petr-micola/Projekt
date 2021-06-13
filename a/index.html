@@ -19,7 +19,7 @@
 
 <body class="container bg-black text-main">
     <header class="jumbotron-fluid bg-black text-center text-uppercase">
-        <nav class="container navbar navbar-expand-sm bg-black navbar-dark fixed-top">
+        <nav class="navbar navbar-expand-sm bg-black navbar-dark fixed-top">
             <a class="navbar-brand text-gold" href="../index.html">Sanctum</a>
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
                 data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
@@ -30,35 +30,34 @@
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Přehled</a>
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">O hře</a>
                         <div class="dropdown-menu bg-black" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="../a/index.html">O hře</a>
-                            <a class="dropdown-item" href="../a/index.html#galerie">Galerie</a>
+                            <a class="dropdown-item" href="#">Přehled</a>
+                            <a class="dropdown-item" href="../a/index.html#vznik">Vznik</a>
+                            <a class="dropdown-item" href="#galerie">Galerie</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../b/index.html">Vznik</a>
+                        <a class="nav-link" href="../b/index.html">Příběh</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../c/index.html">Příběh</a>
+                        <a class="nav-link" href="../c/index.html">Návod</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../d/index.html">Návod</a>
+                        <a class="nav-link" href="../d/index.html">Recenze</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../e/index.html">Recenze</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../f/index.html">Kvíz</a>
+                        <a class="nav-link" href="../e/index.html">Kvíz</a>
                     </li>
                 </ul>
             </div>
         </nav>
-        <h1 class="text-uppercase text-center pt-2">Přehled hry</h1>
+        <h1 class="text-uppercase text-center pt-2">O hře</h1>
     </header>
 
-    <main class="bg-black text-justify">
-        <div class="p-3">
+    <main class="bg-black text-justify pb-3">
+        <div>
+            <h2 class="text-center">Přehled</h2>
             <p>Hráči se v roli hrdinů snaží probojovat si cestu hordami démonů, aby nakonec porazili jejich vládce.
                 Ačkoliv mají hrdinové stejný cíl, jejich
                 motivace je různá. Každý z nich chce tedy pána démonů porazit sám.</p>
@@ -76,8 +75,13 @@
                 předměty. V pátém dějství se hráči snaží prolomit hradby Sancta a nakonec porazit samotného pána démonů.
                 Ten, komu se to podaří, vyhrává hru.</p>
         </div>
+        <div id="vznik" class="mb-3">
+            <h2 class="text-center">Vznik</h2>
+            <p>Autorem Sancta je chorvatský designér <strong>Filip Neduk</strong>, který stojí také za úspěšnými tituly Adrenalin nebo Goblini s.r.o. Pro ČR vydalo Sanctum vydavatelství <strong>Mindok</strong>, <strong>Czech Games Edition</strong> pro zahraničí.</p>
+            <img src="img/neduk.png" alt="Filip Neduk">
+        </div>
         <div id="galerie">
-            <h2 class="text-uppercase text-center pt-2">Fotogalerie</h2>
+            <h2 class="text-center pt-2">Fotogalerie</h2>
             <div id="carouselId" class="carousel slide carousel-fade pb-3" data-ride="carousel" data-interval="false">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselId" data-slide-to="0" class="active"></li>
