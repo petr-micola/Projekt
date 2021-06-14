@@ -53,9 +53,16 @@ iframe {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: 'Newsreader', serif;
     color: #D68C52;
+    text-align: center;
+}
+
+.active,
+.active:hover {
+    text-decoration: underline;
 }
 
 a {
@@ -65,15 +72,6 @@ a {
 
 a:hover {
     color: #E6D4B1 !important;
-}
-
-.dropdown-item:hover {
-    color: #000000 !important;
-}
-
-.dropdown-item {
-    color: rgb(255, 255, 255) !important;
-    transition: none;
 }
 
 .navbar-brand {
@@ -96,7 +94,7 @@ button:focus {
 .card {
     background: linear-gradient(to left, rgba(255, 0, 0, 0), rgba(63, 10, 11, 0.4));
     border: 1px solid #27241F !important;
-    border-radius: 15px !important;
+    border-radius: 0 !important;
 }
 
 h1 {

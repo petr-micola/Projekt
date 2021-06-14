@@ -28,20 +28,14 @@
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">O hře</a>
-                        <div class="dropdown-menu bg-black" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="../a/index.html">Přehled</a>
-                            <a class="dropdown-item" href="../a/index.html#vznik">Vznik</a>
-                            <a class="dropdown-item" href="../a/index.html#galerie">Galerie</a>
-                        </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../a/index.html">O hře</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../b/index.html">Příběh</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Návod</a>
+                        <a class="nav-link active" href="#">Návod</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../d/index.html">Recenze</a>
@@ -52,25 +46,26 @@
                 </ul>
             </div>
         </nav>
-        <h1 class="text-uppercase text-center pt-2">Jak hrát</h1>
+        <h1 class="text-uppercase text-center pt-2">Návod</h1>
     </header>
 
-    <main class="bg-black text-center pb-3">
+    <main class="bg-black text-center pt-3 pb-3">
         <div>
-            <p class="text-justify">Pravidla a videonávod. Vše co potřebujete k první hře. Kdyby jste si něčím
+            <p class="text-white card p-3 text-center">Pravidla a videonávod. Vše co potřebujete k první hře. Kdyby jste
+                si něčím
                 nebyli jisti, najdete zde pomoc.</p>
-            <div>
+            <div class="mt-4">
                 <h2>Pravidla</h2>
-                <object data="pdf/sanctum-rules-cz.pdf#toolbar=0" type="application/pdf" height="800">
-                    <p></p>
+                <object data="pdf/sanctum-rules-cz.pdf#toolbar=0" type="application/pdf" height="1200">
+                    <p>Klikněte zde</p>
                 </object>
             </div>
-            <div class="mb-5 jazykLogo">
+            <div class="jazykLogo">
                 <a href="pdf/sanctum-rules-cz.pdf" target="_blank"><img src="img/cz.png" alt="CZ"></a>
                 <a href="pdf/sanctum-rules-en.pdf" target="_blank"><img src="img/en.png" alt="EN"></a>
             </div>
-            <div>
-                <h2>Videonávod</h2>
+            <div class="mt-5">
+                <h2>Video</h2>
                 <iframe src="https://www.youtube.com/embed/-mAf71nqdLY" title="YouTube video player"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>

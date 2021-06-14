@@ -26,16 +26,10 @@
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="navbar-collapse" id="collapsibleNavId">
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">O hře</a>
-                        <div class="dropdown-menu bg-black" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="../a/index.html">Přehled</a>
-                            <a class="dropdown-item" href="../a/index.html#vznik">Vznik</a>
-                            <a class="dropdown-item" href="../a/index.html#galerie">Galerie</a>
-                        </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../a/index.html">O hře</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../b/index.html">Příběh</a>
@@ -44,7 +38,7 @@
                         <a class="nav-link" href="../c/index.html">Návod</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Recenze</a>
+                        <a class="nav-link active" href="#">Recenze</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../e/index.html">Kvíz</a>
@@ -55,30 +49,57 @@
         <h1 class="text-uppercase text-center pt-2">Recenze</h1>
     </header>
 
-    <main class="bg-black text-justify pb-3">
+    <main class="bg-black text-justify pt-3 pb-3">
         <div>
-            <h2 class="text-center">Názory hráčů</h2>
-            <p>Sanctum se dočkalo <strong>velmi pozitivní kritiky</strong>. Zabíjení monster, sbírání vybavení a
-                vylepšování postav si hráči oblíbili. Za neslabší stránku hry lidi považují její <strong>nevyváženou
-                    obtížnost</strong>. Dokážete projít většinu hry beze stráty jediného života, v podledním aktu však
-                můžete ztratit vše.</p>
-        </div>
-        <div>
-            <h2 class="text-center">Co si o tom myslím já</h2>
-            <p>Nevyvážená obtížnost mi přijde vhodná. Sanctum je takové stolní <a class="underlined-link"
-                    href="https://cs.wikipedia.org/wiki/Diablo" target="_blank">Diablo</a>. Proto respektuji systém
-                "seber co nejvíce vybavení, aby ses připravil na finálního bosse."</p>
-        </div>
-        <div>
-            <form class="collapse show" id="collapseExample">
-                <div class="form-group">
-                    <label for="nazor">A co si Vy myslíte o našich webových stránkách? Zde nám napište Váš
-                        názor:</label>
-                    <textarea class="form-control rounded-0" id="nazor" rows="3"></textarea>
-                </div>
-            </form>
-            <a class="btn btn-dark card" data-toggle="collapse" href="#collapseExample" role="button"
-                aria-expanded="false" aria-controls="collapseExample">Odeslat</a>
+            <p class="text-white card p-3 text-center">Co si o Sanctu myslí hráči z celého světa? Dostalo se mu
+                pozitivního hodnocení, nebo neopak hra upadla v zapomnění?</p>
+            <div class="mt-4">
+                <h2>Názory hráčů</h2>
+                <p>Sanctum se dočkalo <strong>velmi pozitivní kritiky</strong>. Zabíjení monster, sbírání vybavení a
+                    vylepšování postav si hráči oblíbili. Za neslabší stránku hry lidi považují její <strong>nevyváženou
+                        obtížnost</strong>. Dokážete projít většinu hry beze stráty jediného života, v podledním aktu
+                    však můžete ztratit vše.</p>
+            </div>
+            <div class="mt-4">
+                <h2>Hodnocení z webů</h2>
+                <table class="table">
+                    <thead class="text-white">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Web</th>
+                            <th scope="col">Hodnocení</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-main">
+                        <tr>
+                            <th scope="row">1</th>
+                            <td><a class="underlined-link" href="https://www.boardgamequest.com/sanctum-review/"
+                                    target="_blank">Board Game Quest</a></td>
+                            <td>3.5 / 5</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td><a class="underlined-link"
+                                    href="https://www.boardgamegeek.com/boardgame/276830/sanctum/ratings"
+                                    target="_blank">BoardGameGeek</a></td>
+                            <td>7.1 /10</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td><a class="underlined-link"
+                                    href="https://therewillbe.games/articles-boardgame-reviews/7582-sanctum-brings-diablo-to-the-table-review"
+                                    target="_blank">There Will Be Games</a></td>
+                            <td>3.5 / 5</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="mt-4">
+                <h2>Co si o tom myslím já</h2>
+                <p>Nevyvážená obtížnost mi přijde vhodná. Sanctum je takové stolní <a class="diablo"
+                        href="https://cs.wikipedia.org/wiki/Diablo" target="_blank">Diablo</a>. Proto respektuji systém
+                    "seber co nejvíce vybavení, aby ses připravil na finálního bosse."</p>
+            </div>
         </div>
     </main>
 

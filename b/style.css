@@ -14,7 +14,7 @@ main img {
 
 @media (min-width: 576px) {
     main img {
-        max-width: auto;
+        width: auto;
     }
 }
 
@@ -45,9 +45,16 @@ footer img:hover {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: 'Newsreader', serif;
     color: #D68C52;
+    text-align: center;
+}
+
+.active,
+.active:hover {
+    text-decoration: underline;
 }
 
 a {
@@ -57,15 +64,6 @@ a {
 
 a:hover {
     color: #E6D4B1 !important;
-}
-
-.dropdown-item:hover {
-    color: #000000 !important;
-}
-
-.dropdown-item {
-    color: rgb(255, 255, 255) !important;
-    transition: none;
 }
 
 .navbar-brand {
