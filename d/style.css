@@ -6,16 +6,19 @@ body {
 }
 
 main img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 80%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    max-width: 99%;
 }
 
 @media (min-width: 576px) {
     main img {
-        width: 700px;
+        width: auto;
     }
+}
+
+img:hover {
+    filter: brightness(150%);
 }
 
 footer img {
@@ -61,15 +64,6 @@ h3 {
     text-decoration: underline;
 }
 
-.underlined-link {
-    color: #E6D4B1 !important;
-    text-decoration: underline;
-}
-
-.diablo {
-    text-decoration: underline;
-}
-
 a {
     color: white !important;
     transition: color 0.5s;
@@ -77,6 +71,10 @@ a {
 
 a:hover {
     color: #E6D4B1 !important;
+}
+
+.underlined-link {
+    text-decoration: underline;
 }
 
 .navbar-brand {
